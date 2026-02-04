@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:linear-gradient(to right,#c6eb32,#f08044);
+    color: white;
+}
+header{
+    top: 0%;
+    text-align: center;
+}
+/* section */
+section{
+    padding: 20px;
+    text-align:centre;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px; 
+    background-color: black;  
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;   
+}
+
+/*About section*/
+#about img{
+    
+    padding-bottom:20%;
+    height: 100;
+    border-radius:40%;
+    margin:15px 0;
+    background-image: url(image.jpeg);
+    background-position: center;
+    /*background-attachment: fixed*/
+}
+section a h2 {
+    color: black;
+}
+
+   
+/* Skills */
+section h2{
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display:inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project {
+    margin: 20px 0;
+}
+/* Resume Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2196F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact */
+#contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
